@@ -5,7 +5,7 @@ public class Main {
         int a = 15;
         int b = 10;
         if (a < b) {
-            throw new ArithmeticException("Incorrect Value");
+            throw new ArithmeticException("Incorrect Value : ");
         } else {
             System.out.println("correct Value");
         }
