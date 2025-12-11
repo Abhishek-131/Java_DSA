@@ -1,8 +1,7 @@
 package LinkedList;
 
 
-public class InsertNodeAtPos {
-
+public class CreateLL {
     public static void main(String[] args) {
         Node head = new Node(2);
         Node node1 = new Node(3);
@@ -12,5 +11,11 @@ public class InsertNodeAtPos {
         node1.next = node2;
         node2.next = node3;
 
+        Node temp = head;
+        //Iterate the LinkedList
+        while (temp != null){
+            System.out.print(temp.data + "->");
+            temp = temp.next;
+        }
     }
 }

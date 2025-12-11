@@ -8,4 +8,6 @@ public class Node {
         this.data = data;
         Node next = null;
     }
+
+    Node newNode = new Node(15);
 }
