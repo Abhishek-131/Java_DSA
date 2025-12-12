@@ -8,9 +8,9 @@ public class Node {
         this.data = data;
         Node next = null;
     }
+
     Node (int data, Node next){
         this.data = data;
         this.next = null;
     }
-
 }
