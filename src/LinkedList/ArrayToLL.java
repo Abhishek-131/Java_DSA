@@ -22,7 +22,7 @@ public class ArrayToLL {
         }
     }
 
-    //Check if Element present
+    //Check if Element Present
     private static int CheckElement(Node head, int val){
         Node temp = head;
         while (temp != null){

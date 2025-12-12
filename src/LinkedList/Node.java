@@ -9,5 +9,8 @@ public class Node {
         Node next = null;
     }
 
-    Node newNode = new Node(15);
+    Node (int data, Node next){
+        this.data = data;
+        this.next = null;
+    }
 }
